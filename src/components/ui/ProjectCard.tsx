@@ -36,14 +36,14 @@ function FallbackThumbnail({ title }: { title: string }) {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <article className="group flex flex-col rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md dark:border-gray-800 dark:bg-gray-900 focus-within:ring-2 focus-within:ring-accent-500 focus-within:ring-offset-2">
+    <article className="relative group flex flex-col h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md dark:border-gray-800 dark:bg-gray-900 focus-within:ring-2 focus-within:ring-accent-500 focus-within:ring-offset-2">
       {/* Thumbnail */}
-      <div className="relative h-48 overflow-hidden rounded-t-xl bg-gray-100 dark:bg-gray-800">
+      <div className="relative h-48 rounded-t-xl bg-gray-100 dark:bg-gray-800">
         <Image
           src={project.thumbnail}
           alt={`Screenshot of ${project.title}`}
           fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          className="object-contain p-2"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           onError={(e) => {
             const target = e.currentTarget as HTMLImageElement;

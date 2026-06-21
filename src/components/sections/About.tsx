@@ -49,12 +49,12 @@ export function About() {
 
             <div className="flex flex-col gap-4 text-base text-gray-600 dark:text-gray-400 leading-relaxed">
               <p>
-                I&apos;m Ali Haider Noorani who is passionate about full-stack development,
+                I&apos;m Ali Haider Noorani. I&apos;m passionate about full-stack development,
                 Generative AI, and creating meaningful digital experiences. I enjoy building projects that solve
                 real problems while continuously improving my technical skills.
               </p>
               <p>
-                 My experience comes from hands-on learning through personal projects and hackathons from the Certified
+                My experience comes from hands-on learning through personal projects and hackathons from the Certified
                 Cloud Applied Generative AI Engineer program. I&apos;ve worked with technologies such as Next.js,
                 React, TypeScript and Python and modern AI tools to build web applications, automation
                 solutions, and AI-powered projects.

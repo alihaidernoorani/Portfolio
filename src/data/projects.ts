@@ -15,7 +15,7 @@ export const projects: Project[] = [
 
   category: 'web',
   techLabels: ['Next.js', 'TypeScript', 'Sanity', 'Tailwind CSS'],
-  thumbnail: '/images/projects/ecommerce-dashboard.jpg',
+  thumbnail: '/images/projects/Comforty.jpg',
   links: {
     demo: 'https://marketplace-builder-hackathon-comforty.vercel.app/',
     source: 'https://github.com/alihaidernoorani/Marketplace-Builder-Hackathon-Comforty',
@@ -31,7 +31,7 @@ export const projects: Project[] = [
   fullDescription:
     'An advanced, collaborative workspace that redefines task management by combining standard workflow control with natural language automation. Users can seamlessly create, update, delete, and toggle completion states of tasks across real-time Kanban boards. The platform features robust state management allowing instant categorization and sorting based on status (completed vs. pending) and priority levels. Beyond manual UI controls, an embedded conversational chatbot powered by the OpenAI Agents SDK acts as a copilot, allowing users to execute full lifecycle task management, filter views, and reorganize backlogs entirely through natural language commands.',
   challenge:
-    'Implementing conflict-free, real-time collaborative editing and agentic state updates without a massive backend footprint required careful orchestration. This was solved by leveraging robust WebSocket event reconciliation paired with aggressive optimistic UI updates, ensuring that manual UI interactions and natural language chatbot actions sync flawlessly across all connected clients without race conditions.',
+    'The main challenge was keeping task state in sync when updates came from both the UI and the chatbot simultaneously.',
   category: 'web',
   techLabels: ['Next.js', 'TypeScript', 'Tailwind CSS', 'OpenAI Agents SDK', 'Docker'],
   thumbnail: '/images/projects/task-management.jpg',
@@ -56,7 +56,7 @@ export const projects: Project[] = [
 
   category: 'web',
   techLabels: ['Docusaurus', 'TypeScript', 'React', 'OpenAI Agents SDK'],
-  thumbnail: '/images/projects/weather-app.jpg',
+  thumbnail: '/images/projects/docusaurus-book.jpg',
   links: {
     demo: 'https://alihaidernoorani.github.io/Physical-AI-Humanoid-Robotics-Book/',
     source: 'https://github.com/alihaidernoorani/Physical-AI-Humanoid-Robotics-Book',

@@ -61,6 +61,7 @@ export function Projects() {
                 animate="visible"
                 exit="exit"
                 layout
+                className="h-full"
               >
                 <ProjectCard project={project} />
               </motion.div>

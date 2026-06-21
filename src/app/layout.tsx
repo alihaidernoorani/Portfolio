@@ -6,11 +6,11 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Ali Haider Noorani — Software Developer',
+    default: 'Ali Haider Noorani - Cloud Applied Generative AI Engineer',
     template: '%s | Ali Haider Noorani',
   },
   description:
-    'Personal portfolio of Ali Haider Noorani — software developer specialising in full-stack web and mobile applications.',
+    'Personal portfolio of Ali Haider Noorani - cloud applied generative AI Engineer specialising in full-stack web applications.',
   metadataBase: new URL('https://alihaider.dev'),
   openGraph: {
     type: 'website',
