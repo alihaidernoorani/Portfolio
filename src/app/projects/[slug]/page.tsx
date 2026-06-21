@@ -45,12 +45,12 @@ export default async function ProjectPage({ params }: Props) {
         </Link>
 
         {/* Thumbnail */}
-        <div className="relative mb-8 h-64 w-full overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 sm:h-80">
+        <div className="relative mb-8 h-64 w-full rounded-xl bg-gray-100 dark:bg-gray-800 sm:h-80">
           <Image
             src={project.thumbnail}
             alt={`Screenshot of ${project.title}`}
             fill
-            className="object-cover"
+            className="object-contain p-3"
             priority
             sizes="(max-width: 768px) 100vw, 768px"
           />

@@ -66,7 +66,7 @@ export function Hero() {
               variants={itemVariants}
               className="max-w-lg text-lg text-gray-600 dark:text-gray-400 leading-relaxed"
             >
-              I build fast, accessible, and beautifully crafted web and mobile applications — turning ideas into products that people love to use.
+              I build fast, accessible, and beautifully crafted web and mobile applications - turning ideas into products that people love to use.
             </motion.p>
 
             <motion.div
@@ -91,9 +91,9 @@ export function Hero() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-accent-100 to-accent-200 dark:from-accent-900/30 dark:to-accent-800/30" />
               <Image
                 src="/images/profile.jpg"
-                alt="Ali Haider Noorani — Full-Stack Software Developer"
+                alt="Ali Haider Noorani - Cloud Applied Generative AI Engineer"
                 fill
-                className="rounded-full object-cover ring-4 ring-white dark:ring-gray-900 shadow-xl"
+                className="rounded-full object-contain ring-4 ring-white dark:ring-gray-900 shadow-xl"
                 priority
                 sizes="(max-width: 640px) 288px, (max-width: 1024px) 320px, 384px"
               />
