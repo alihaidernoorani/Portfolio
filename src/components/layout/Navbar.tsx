@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
-  { label: 'Home', href: '#hero' },
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#hero' },
+  { label: 'About', href: '/#about' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Contact', href: '/#contact' },
 ];
 
 export function Navbar() {
@@ -63,27 +63,27 @@ export function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
       >
         {/* Logo / Name */}
-        <a
-          href="#hero"
+        <Link
+          href="/#hero"
           className="text-lg font-bold text-gray-900 hover:text-accent-600 dark:text-gray-50 dark:hover:text-accent-400 focus-ring rounded"
         >
           Ali Haider
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden items-center gap-6 md:flex" role="list">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a
+              <Link
                 href={link.href}
                 className="text-sm font-medium text-gray-600 hover:text-accent-600 dark:text-gray-400 dark:hover:text-accent-400 focus-ring rounded transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
           <li>
-            <a
+            <Link
               href="/Ali_Haider_Noorani_CV.pdf"
               download
               aria-label="Download resume PDF"
@@ -104,7 +104,7 @@ export function Navbar() {
                   d="M12 3v12m0 0l-3.5-3.5M12 15l3.5-3.5M5 20h14"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -146,17 +146,17 @@ export function Navbar() {
         <ul className="flex flex-col px-4 py-4 gap-1" role="list">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a
+              <Link
                 href={link.href}
                 onClick={closeMenu}
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-accent-600 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-accent-400 focus-ring transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
           <li className="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
-            <a
+            <Link
               href="/Ali_Haider_Noorani_CV.pdf"
               download
               aria-label="Download resume PDF"
@@ -164,7 +164,7 @@ export function Navbar() {
               className="block rounded-md px-3 py-2 text-base font-medium text-accent-600 hover:bg-accent-50 dark:text-accent-400 dark:hover:bg-accent-900/20 focus-ring transition-colors"
             >
               Download Resume
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
