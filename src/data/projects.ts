@@ -29,7 +29,7 @@ export const projects: Project[] = [
   shortDescription:
     'A real-time, agentic task manager featuring full CRUD operations, multi-dimensional filtering, and an intelligent chatbot for natural language task management.',
   fullDescription:
-    'An advanced, collaborative workspace that redefines task management by combining standard workflow control with natural language automation. Users can seamlessly create, update, delete, and toggle completion states of tasks across real-time Kanban boards. The platform features robust state management allowing instant categorization and sorting based on status (completed vs. pending) and priority levels. Beyond manual UI controls, an embedded conversational chatbot powered by the OpenAI Agents SDK acts as a copilot, allowing users to execute full lifecycle task management, filter views, and reorganize backlogs entirely through natural language commands.',
+    'An advanced, collaborative workspace that redefines task management by combining standard workflow control with natural language automation. Users can seamlessly create, update, delete, and toggle completion states of tasks. The platform features robust state management allowing instant categorization and sorting based on status (completed vs. pending) and priority levels. Beyond manual UI controls, an embedded conversational chatbot powered by the OpenAI Agents SDK acts as a copilot, allowing users to execute full lifecycle task management entirely through natural language commands.',
   challenge:
     'The main challenge was keeping task state in sync when updates came from both the UI and the chatbot simultaneously.',
   category: 'web',
@@ -46,13 +46,13 @@ export const projects: Project[] = [
   slug: 'docusaurus-book',
   title: 'Physical AI & Humanoid Robotics - Docusaurus Book',
   shortDescription:
-    'A documentation-style Docusaurus website presenting structured content on Physical AI and Humanoid Robotics with an integrated AI chatbot.',
+    'A Docusaurus website presenting structured content on Physical AI and Humanoid Robotics with an integrated AI chatbot.',
 
   fullDescription:
-    'Built a Docusaurus-based documentation site focused on Physical AI and Humanoid Robotics. The project organizes technical content into a structured, easy-to-navigate format and includes an AI-powered chatbot to assist users in exploring and understanding the material interactively.',
+    'Built a book on Physical AI and Humanoid Robotics with Docusaurus, organising technical content into a clear, navigable format.',
 
   challenge:
-    'The main challenge was designing a clean documentation structure while integrating an AI chatbot that could respond contextually to user queries without breaking the reading flow or performance of the static site.',
+    'The main challenge was designing and integrating an AI chatbot that could respond contextually to user queries without breaking the reading flow or performance of the static site.',
 
   category: 'web',
   techLabels: ['Docusaurus', 'TypeScript', 'React', 'OpenAI Agents SDK'],
