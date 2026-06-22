@@ -84,7 +84,7 @@ export function About() {
                 ) : null;
               })}
 
-              <Button as="a" href="/resume.pdf" download aria-label="Download resume PDF" variant="secondary">
+              <Button as="a" href="/Ali_Haider_Noorani_CV.pdf" download aria-label="Download resume PDF" variant="secondary">
                 Download Resume
               </Button>
             </div>
