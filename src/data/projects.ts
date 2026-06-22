@@ -31,7 +31,7 @@ export const projects: Project[] = [
   fullDescription:
     'An advanced, collaborative workspace that redefines task management by combining standard workflow control with natural language automation. Users can seamlessly create, update, delete, and toggle completion states of tasks. The platform features robust state management allowing instant categorization and sorting based on status (completed vs. pending) and priority levels. Beyond manual UI controls, an embedded conversational chatbot powered by the OpenAI Agents SDK acts as a copilot, allowing users to execute full lifecycle task management entirely through natural language commands.',
   challenge:
-    'The main challenge was keeping task state in sync when updates came from both the UI and the chatbot simultaneously.',
+    'The main challenge was keeping task state in sync when updates came from both the UI and the chatbot.',
   category: 'web',
   techLabels: ['Next.js', 'TypeScript', 'Tailwind CSS', 'OpenAI Agents SDK', 'Docker'],
   thumbnail: '/images/projects/task-management.jpg',
