@@ -84,7 +84,7 @@ export function Navbar() {
           ))}
           <li>
             <a
-              href="/resume.pdf"
+              href="/Ali_Haider_Noorani_CV.pdf"
               download
               aria-label="Download resume PDF"
               className="inline-flex items-center gap-1.5 rounded-lg border border-accent-600 px-4 py-1.5 text-sm font-medium text-accent-600 hover:bg-accent-50 dark:border-accent-400 dark:text-accent-400 dark:hover:bg-accent-900/20 focus-ring transition-colors"
@@ -157,7 +157,7 @@ export function Navbar() {
           ))}
           <li className="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
             <a
-              href="/resume.pdf"
+              href="/Ali_Haider_Noorani_CV.pdf"
               download
               aria-label="Download resume PDF"
               onClick={closeMenu}
