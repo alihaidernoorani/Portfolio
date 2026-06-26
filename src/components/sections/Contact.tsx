@@ -1,6 +1,6 @@
 import { ContactForm } from '@/components/ui/ContactForm';
 
-const FALLBACK_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'nooranialihaider@gmail.com';
+const FALLBACK_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'alihaidernoorani@yahoo.com';
 
 export function Contact() {
   return (

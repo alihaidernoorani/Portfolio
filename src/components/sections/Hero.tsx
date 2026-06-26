@@ -66,7 +66,7 @@ export function Hero() {
               variants={itemVariants}
               className="max-w-lg text-lg text-gray-600 dark:text-gray-400 leading-relaxed"
             >
-              I build fast, accessible, and beautifully crafted web and mobile applications - turning ideas into products that people love to use.
+              I build production-ready agentic AI systems - autonomous agents, multi-agent pipelines, and the full-stack interfaces that bring them to life.
             </motion.p>
 
             <motion.div

@@ -13,6 +13,8 @@ interface ProjectFilterProps {
 const categoryLabels: Record<string, string> = {
   all: 'All',
   web: 'Web',
+  'ai-agent': 'AI Agents',
+  python: 'Python',
   mobile: 'Mobile',
   backend: 'Backend',
   data: 'Data',

@@ -8,6 +8,8 @@ interface ProjectCardProps {
 
 const categoryLabels: Record<string, string> = {
   web: 'Web',
+  'ai-agent': 'AI Agents',
+  python: 'Python',
   mobile: 'Mobile',
   backend: 'Backend',
   data: 'Data',
@@ -17,6 +19,8 @@ const categoryLabels: Record<string, string> = {
 
 const categoryColors: Record<string, string> = {
   web: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300',
+  'ai-agent': 'bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-300',
+  python: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300',
   mobile: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300',
   backend: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300',
   data: 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300',
@@ -94,7 +98,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Links */}
-        {(project.links.demo || project.links.source) && (
+        {(project.links.demo || project.links.source || project.links.repos) && (
           <div className="flex gap-3 pt-2 relative z-10">
             {project.links.demo && (
               <a
@@ -117,6 +121,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
               >
                 Source ↗
               </a>
+            )}
+            {!project.links.source && project.links.repos && (
+              <span className="text-sm font-medium text-gray-600 dark:text-gray-400">
+                {project.links.repos.length} repos, see details
+              </span>
             )}
           </div>
         )}
