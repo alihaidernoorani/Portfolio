@@ -9,7 +9,7 @@ export default function NotFound() {
         Page not found
       </h1>
       <p className="mt-3 text-base text-gray-500 dark:text-gray-400 max-w-sm">
-        Apologies — the page you&apos;re looking for doesn&apos;t exist or has been moved.
+        Apologies, the page you&apos;re looking for doesn&apos;t exist or has been moved.
       </p>
       <div className="mt-8">
         <Button as="a" href="/" variant="primary">

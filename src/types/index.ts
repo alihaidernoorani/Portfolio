@@ -1,5 +1,7 @@
 export type ProjectCategory =
   | 'web'
+  | 'ai-agent'
+  | 'python'
   | 'mobile'
   | 'backend'
   | 'data'
@@ -13,9 +15,15 @@ export type SkillCategory =
   | 'platform'
   | 'domain';
 
+export interface ProjectRepo {
+  label: string;
+  url: string;
+}
+
 export interface ProjectLinks {
   demo?: string;
   source?: string;
+  repos?: ProjectRepo[];
 }
 
 export interface Project {

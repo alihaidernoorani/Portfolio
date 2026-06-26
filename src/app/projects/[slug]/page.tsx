@@ -130,6 +130,29 @@ export default async function ProjectPage({ params }: Props) {
             )}
           </div>
         )}
+
+        {/* Individual repos (for collection projects) */}
+        {project.links.repos && project.links.repos.length > 0 && (
+          <section className="mt-10">
+            <h2 className="mb-4 text-base font-semibold text-gray-900 dark:text-white">
+              Source Repositories
+            </h2>
+            <div className="flex flex-col gap-2">
+              {project.links.repos.map((repo) => (
+                <a
+                  key={repo.url}
+                  href={repo.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-gray-700 transition-colors hover:border-accent-400 hover:text-accent-600 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-accent-500 dark:hover:text-accent-400"
+                >
+                  <span className="font-medium">{repo.label}</span>
+                  <span className="text-xs text-gray-400 dark:text-gray-500">GitHub ↗</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </article>
   );
