@@ -2,24 +2,6 @@ import type { Project } from '@/types';
 
 export const projects: Project[] = [
   {
-    slug: 'personal-ai-employee',
-    title: 'Personal AI Employee',
-    shortDescription:
-      'An autonomous digital FTE powered by Claude Code and Obsidian that monitors Gmail and WhatsApp, triages incoming tasks, executes safe actions automatically, and queues anything sensitive for human approval via MCP.',
-    fullDescription:
-      'A local-first autonomous agent that acts as a Digital Full-Time Employee. Python watcher scripts monitor inputs from Gmail, WhatsApp, and file drops, writing structured task files to a processing queue. Claude Code triages each task, routing safe actions for automatic execution and flagging sensitive ones for human approval before triggering MCP-driven actions. The entire system runs on your machine, using Obsidian as the task vault and knowledge base.',
-    challenge:
-      'The main challenge was building a reliable triage system that could distinguish between safe actions it could execute autonomously and sensitive ones requiring human approval, while keeping watcher scripts resilient across multiple input sources.',
-    category: 'ai-agent',
-    techLabels: ['Python', 'Claude Code', 'Obsidian', 'MCP', 'Gmail API', 'WhatsApp'],
-    thumbnail: '/images/projects/personal-ai-employee.jpg',
-    links: {
-      source: 'https://github.com/alihaidernoorani/Personal-AI-Employee',
-    },
-    period: 'Feb 2026 – Mar 2026',
-    featured: true,
-  },
-  {
     slug: 'task-management-app',
     title: 'AI-Powered Todo App',
     shortDescription:
