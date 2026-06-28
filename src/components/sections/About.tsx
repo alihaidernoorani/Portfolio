@@ -55,8 +55,8 @@ export function About() {
               </p>
               <p>
                 My projects include a RAG-powered chatbot built on FastAPI, Qdrant, and Cohere; an AI task
-                manager with a natural-language copilot; and an autonomous agent that controls Gmail and WhatsApp
-                using Claude Code and MCP. Everything is shipped, linked, and open source.
+                manager with a natural-language copilot; and a series of purpose-built AI agents exploring
+                multi-agent orchestration and tool use. Everything is shipped, linked, and open source.
               </p>
             </div>
 
